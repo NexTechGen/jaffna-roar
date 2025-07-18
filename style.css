@@ -1,0 +1,62 @@
+/* Scrollbar Styling */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #6c0505; /* Indigo-600 */
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #6c0505; /* Indigo-700 */
+  }
+  /* Custom clip-path for hero wave bottom */
+  .wave-clip {
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  }
+  /* Hero background overlay with blend */
+  .hero-bg {
+    background: url('img\\IMG_5264.JPG') no-repeat center/cover;
+    position: relative;
+  }
+  .hero-bg::after {
+    content: "";
+    background: rgba(31, 41, 55, 0.75); /* Tailwind gray-900 with opacity */
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+  }
+  /* Leadership photos overlay fallback */
+  .lead-photo {
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.375rem; /* rounded-md */
+    aspect-ratio: 1/1.2;
+  }
+  /* Smooth simple fade in */
+  .fade-in {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+  }
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+
+
+.border-indigo-600{
+    --tw-border-opacity: 1;
+    border-color: #6c0505;
+}
+
+.txt-ly{
+  text-transform: uppercase;
+}
+
+.img-round{
+  border-radius: 50%;
+}
