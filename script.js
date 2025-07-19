@@ -6,6 +6,9 @@
     mobileMenu.classList.toggle('hidden');
   });
 
+  document.getElementById("footerYear").textContent = new Date().getFullYear();
+
+  
 const text_Color = document.querySelectorAll(".text-indigo-600");
     text_Color.forEach(text_Color => {
       text_Color.classList.remove("text-indigo-600"); 
