@@ -1,3 +1,8 @@
+ // Load navbar
+    fetch('nav.html')
+      .then(res => res.text())
+      .then(data => document.getElementById('navbar').innerHTML = data);
+ 
  // Mobile Menu Toggle
   const menuBtn = document.getElementById('mobile-menu-btn');
   const mobileMenu = document.getElementById('mobile-menu');
