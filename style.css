@@ -6,12 +6,12 @@
     background: #f1f1f1;
   }
   ::-webkit-scrollbar-thumb {
-    background: #6c0505; /* Indigo-600 */
+    background: #6c0505; /* rose-600 */
     border-radius: 10px;
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    background: #6c0505; /* Indigo-700 */
+    background: #6c0505; /* rose-700 */
   }
   /* Custom clip-path for hero wave bottom */
   .wave-clip {
@@ -48,7 +48,7 @@
   }
 
 
-.border-indigo-600{
+.border-rose-600{
     --tw-border-opacity: 1;
     border-color: #6c0505;
 }

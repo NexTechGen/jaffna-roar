@@ -14,25 +14,25 @@
   document.getElementById("footerYear").textContent = new Date().getFullYear();
 
   
-const text_Color = document.querySelectorAll(".text-indigo-600");
+const text_Color = document.querySelectorAll(".text-rose-600");
     text_Color.forEach(text_Color => {
-      text_Color.classList.remove("text-indigo-600"); 
+      text_Color.classList.remove("text-rose-600"); 
       text_Color.style.color = "#6c0505"; 
     });
 
-document.querySelectorAll(".border-indigo-600").forEach(el => {
-      el.classList.remove("border-indigo-600"); 
+document.querySelectorAll(".border-rose-600").forEach(el => {
+      el.classList.remove("border-rose-600"); 
       el.style.borderColor = "#6c0505";
     });
 
 document.addEventListener("DOMContentLoaded", function () {
     const style = document.createElement("style");
     style.innerHTML = `
-      .bg-indigo-600 {
+      .bg-rose-600 {
         --tw-bg-opacity: 1;
         background-color: rgb(108 5 5 / var(--tw-bg-opacity, 1)) !important;
       }
-      .bg-indigo-900 {
+      .bg-rose-900 {
         --tw-bg-opacity: 1;
         background-color: rgb(108 5 5 / var(--tw-bg-opacity, 1)) !important;
       }
