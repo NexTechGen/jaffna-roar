@@ -4,7 +4,7 @@
 
 Welcome to the official repository of the Jaffna Roar Media Team at the Faculty of Technology, University of Jaffna.
 
-This is a static website built using HTML, CSS, JavaScript, and hosted for free via GitHub Pages.
+This is a static website built using HTML, CSS, JavaScript, and hosted for free via netlify Pages.
 
 ---
 
