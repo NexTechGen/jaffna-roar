@@ -1,5 +1,5 @@
  
-<img height="100" width="100" src="/workspaces/jaffna-roar/img/logo.png" /> <br> 
+<img height="100" width="100" src="https://github.com/NexTechGen/jaffna-roar/blob/main/img/logo.png" /> <br> 
 # Jaffna Roar Media – Official Website
 
 Welcome to the official repository of the Jaffna Roar Media Team at the Faculty of Technology, University of Jaffna.
