@@ -1,3 +1,15 @@
+ // Disable right-click
+    document.addEventListener('contextmenu', function(e) {
+      e.preventDefault();
+    });
+
+    // Optional: disable Ctrl+C and right-click copy
+    document.addEventListener('keydown', function(e) {
+      if ((e.ctrlKey || e.metaKey) && (e.key === 'c' || e.key === 'C')) {
+        e.preventDefault();
+      }
+    });
+
  // Load navbar
     fetch('nav.html')
       .then(res => res.text())
@@ -58,13 +70,3 @@ document.addEventListener("DOMContentLoaded", function () {
 
     window.location.href = `mailto:jaffnaroar.tech2016@gmail.com?subject=${subject}&body=${body}`;
   }
-
-
-
-
-
-
-
-
-
-  
