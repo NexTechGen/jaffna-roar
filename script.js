@@ -58,3 +58,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     window.location.href = `mailto:jaffnaroar.tech2016@gmail.com?subject=${subject}&body=${body}`;
   }
+
+
+
+
+
+
+
+
+
+  

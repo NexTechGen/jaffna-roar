@@ -1,3 +1,4 @@
+
 /* Scrollbar Styling */
   ::-webkit-scrollbar {
     width: 8px;
@@ -57,6 +58,68 @@
   text-transform: uppercase;
 }
 
-.img-round{
-  border-radius: 50%;
+
+
+
+/* roar voice animation */
+.myAnimaation{
+  animation: botum-to-top 2s ease 0s 1 normal forwards;
 }
+
+@keyframes botum-to-top {
+	0% {
+		opacity: 0;
+		transform: rotateX(-70deg);
+		transform-origin: bottom;
+	}
+
+	100% {
+		opacity: 1;
+		transform: rotateX(0);
+		transform-origin: bottom;
+	}
+}
+
+/* section animation */
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    /* transform: translateX(-100px); */
+    scale: 0.5;
+    /* clip-path: inset(100% 100% 0 0); */
+  }
+  to {
+    opacity: 1;
+    /* transform: translateX(0px); */
+    scale: 1;
+    /* clip-path: inset(0 0 0 0); */
+  }
+}
+
+.myviewnormal {
+  animation: appear linear; 
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%; 
+}
+
+/* zoom out */
+@keyframes appear2 {
+  from {
+    opacity: 0;
+    transform: translateX(-500px);
+    transform: translateY(200px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+    transform: translateY(0px);
+  }
+}
+
+.myviewnzoom {
+  animation: appear2 ease-in; 
+  animation-timeline: view();
+  animation-range: entry 0% cover 35%; 
+}
+
