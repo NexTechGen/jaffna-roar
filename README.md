@@ -1,10 +1,10 @@
  
-<img height="100" width="100" src="https://github.com/NexTechGen/jaffna-roar/blob/main/img/logo.png" /> <br> 
+<img height="100" width="100" src="https://github.com/NexTechGen/jaffna-roar/blob/main/img/black%20in%20white%20bg.png" /> <br> 
 # Jaffna Roar Media – Official Website
 
-Welcome to the official repository of the Jaffna Roar Media Team at the Faculty of Technology, University of Jaffna.
+Welcome to the official repository of the <b>Jaffna Roar Media Team</b> at the Faculty of Technology, University of Jaffna.
 
-This is a static website built using HTML, CSS, JavaScript, and hosted for free via netlify Pages.
+This is a static website built using HTML, CSS, JavaScript and hosted for free via netlify Pages.
 
 ---
 
